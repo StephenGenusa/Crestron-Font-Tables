@@ -7,7 +7,7 @@ Generates good looking documentation for Crestron fonts. HTML generator availabl
 
 ----------
 - You need to have the Crestron fonts available on your system, perhaps in the same directory as the HTML depending on browser.
-- JavaScript located in the HTML uses array of Crestron fonts to generate nicely formatted table showing all font characters, decimal and hex and other useful information. 
+- JavaScript located in the HTML uses array of Crestron fonts to generate nicely formatted table showing all font characters, decimal and hex and standard ASCII character. 
 
 ----------
 
