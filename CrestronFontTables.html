@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Crestron Fonts</title>
+<script src="jquery-1.11.3.js"></script>
+
+<!--
+Copyright © 2017 Stephen Genusa
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<style type="text/css">
+
+.arial {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.ar_s {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+div {page-break-after: always}
+
+@font-face {
+	font-family: CrestronGeneral;
+	src: url('Crestron General.ttf') format('truetype');
+}
+.CRESTGEN {
+	font-size:22px;
+    font-family: CrestronGeneral;
+} 
+
+@font-face {
+	font-family: CrestronLightingHVAC;
+	src: url('Crestron Lighting-HVAC.ttf') format('truetype');
+}
+.CRESTLIGHVAC {
+	font-size:22px;
+    font-family: CrestronLightingHVAC;
+} 
+
+@font-face {
+	font-family: CrestronAV;
+	src: url('Crestron AV.ttf') format('truetype');
+}
+.CRESTAV {
+	font-size:22px;
+    font-family: CrestronAV;
+} 
+
+
+@font-face {
+	font-size:22px;
+	font-family: CrestronAVTextSplit1;
+	src: url('Crestron-AV-Text-split-1.ttf') format('truetype');
+}
+.CAVTS1 {
+	font-size:22px;
+    font-family: CrestronAVTextSplit1;
+} 
+
+@font-face {
+	font-family: CrestronAVTextSplit2;
+	src: url('Crestron-AV-Text-split-2.ttf') format('truetype');
+}
+.CAVTS2 {
+	font-size:22px;
+    font-family: CrestronAVTextSplit2;
+} 
+
+
+@font-face {
+	font-family: CrestronAVTextSplit3;
+	src: url('Crestron-AV-Text-split-3.ttf') format('truetype');
+}
+.CAVTS3 {
+	font-size:22px;
+    font-family: CrestronAVTextSplit3;
+} 
+
+@font-face {
+	font-family: CrestronAVTextSplit4;
+	src: url('Crestron-AV-Text-split-4.ttf') format('truetype');
+}
+.CAVTS4 {
+	font-size:22px;
+    font-family: CrestronAVTextSplit4;
+} 
+
+@font-face {
+	font-family: CrestronGeneralTextsplit1;
+	src: url('Crestron-General-Text-split-1.ttf') format('truetype');
+}
+.CGTS1 {
+	font-size:22px;
+    font-family: CrestronGeneralTextsplit1;
+} 
+
+@font-face {
+	font-family: CrestronGeneralTextsplit2;
+	src: url('Crestron-General-Text-split-2.ttf') format('truetype');
+}
+.CGTS2 {
+	font-size:22px;
+    font-family: CrestronGeneralTextsplit2;
+} 
+
+@font-face {
+	font-family: CrestronGeneralTextsplit3;
+	src: url('Crestron-General-Text-split-3.ttf') format('truetype');
+}
+.CGTS3 {
+	font-size:22px;
+    font-family: CrestronGeneralTextsplit3;
+} 
+
+@font-face {
+	font-family: CrestronGeneralTextsplit4;
+	src: url('Crestron-General-Text-split-4.ttf') format('truetype');
+}
+.CGTS4 {
+	font-size:22px;
+    font-family: CrestronGeneralTextsplit4;
+} 
+
+@font-face {
+	font-family: CrestronHVACTextsplit1;
+	src: url('Crestron-HVAC-Text-split-1.ttf') format('truetype');
+}
+.CHVACTS1 {
+	font-size:22px;
+    font-family: CrestronHVACTextsplit1;
+} 
+
+@font-face {
+	font-family: CrestronHVACTextsplit2;
+	src: url('Crestron-HVAC-Text-split-2.ttf') format('truetype');
+}
+.CHVACTS2 {
+	font-size:22px;
+    font-family: CrestronHVACTextsplit2;
+} 
+@font-face {
+	font-family: CrestronHVACTextsplit3;
+	src: url('Crestron-HVAC-Text-split-3.ttf') format('truetype');
+}
+.CHVACTS3 {
+	font-size:22px;
+    font-family: CrestronHVACTextsplit3;
+} 
+@font-face {
+	font-family: CrestronHVACTextsplit4;
+	src: url('Crestron-HVAC-Text-split-4.ttf') format('truetype');
+}
+.CHVACTS4 {
+	font-size:22px;
+    font-family: CrestronHVACTextsplit4;
+} 
+
+@font-face {
+	font-family: CrestronMonoBold;
+	src: url('CrestronMono-Bold.ttf') format('truetype');
+}
+.CMB {
+	font-size:22px;
+    font-family: CrestronMonoBold;
+} 
+
+@font-face {
+	font-family: CrestronMonoRegular;
+	src: url('CrestronMono-Regular.ttf') format('truetype');
+}
+.CMR {
+	font-size:22px;
+    font-family: CrestronMonoRegular;
+} 
+
+@font-face {
+	font-family: CrestronSansProBold;
+	src: url('CrestronSansPro-Bold.otf') format('opentype');
+}
+.CSPB {
+	font-size:22px;
+    font-family: CrestronSansProBold;
+} 
+
+@font-face {
+	font-family: CrestronSansProBoldItalic;
+	src: url('CrestronSansPro-BoldItalic.ttf') format('truetype');
+}
+.CSPBI {
+	font-size:22px;
+    font-family: CrestronSansProBoldItalic;
+} 
+
+@font-face {
+	font-family: CrestronSansProItalic;
+	src: url('CrestronSansPro-Italic.ttf') format('truetype');
+}
+.CSPI {
+	font-size:22px;
+    font-family: CrestronSansProItalic;
+} 
+
+@font-face {
+	font-family: CrestronSansProLight;
+	src: url('CrestronSansPro-Light.otf') format('opentype');
+}
+.CSPL {
+	font-size:22px;
+    font-family: CrestronSansProLight;
+} 
+
+@font-face {
+	font-family: CrestronSansProLightItalic;
+	src: url('CrestronSansPro-LightItalic.ttf') format('truetype');
+}
+.CSPLI {
+	font-size:22px;
+    font-family: CrestronSansProLightItalic;
+} 
+
+@font-face {
+	font-family: CrestronSansProRegular;
+	src: url('CrestronSansPro-Regular.otf') format('opentype');
+}
+.CSPR {
+	font-size:22px;
+    font-family: CrestronSansProRegular;
+} 
+
+@font-face {
+	font-family: CrestronSansProSemibold;
+	src: url('CrestronSansPro-Semibold.otf') format('opentype');
+}
+.CSPSB {
+	font-size:22px;
+    font-family: CrestronSansProSemibold;
+} 
+
+@font-face {
+	font-family: CrestronSansProSemiboldItalic;
+	src: url('CrestronSansPro-SemiboldItalic.ttf') format('truetype');
+}
+.CSPSBI {
+	font-size:22px;
+    font-family: CrestronSansProSemiboldItalic;
+} 
+
+@font-face {
+	font-family: CrestronSerifBold;
+	src: url('CrestronSerif-Bold.ttf') format('truetype');
+}
+.CSERIFB {
+	font-size:22px;
+    font-family: CrestronSerifBold;
+} 
+
+@font-face {
+	font-family: CrestronSerifItalic;
+	src: url('CrestronSerif-Italic.ttf') format('truetype');
+}
+.CSERIFI {
+	font-size:22px;
+    font-family: CrestronSerifItalic;
+} 
+
+@font-face {
+	font-family: CrestronSerifRegular;
+	src: url('CrestronSerif-Regular.ttf') format('truetype');
+}
+.CSERIFR {
+	font-size:22px;
+    font-family: CrestronSerifRegular;
+} 
+
+@font-face {
+	font-family: CrestronUnicodeRegular;
+	src: url('CrestronUnicode-Regular.ttf') format('truetype');
+}
+.CUNIR {
+	font-size:22px;
+    font-family: CrestronUnicodeRegular;
+} 
+
+@font-face {
+	font-family: CrestronTransport;
+	src: url('CTRANS.TTF') format('truetype');
+}
+.CTRANSP {
+	font-size:22px;
+    font-family: CrestronTransport;
+} 
+
+@font-face {
+	font-family: CrestronTranspOutline;
+	src: url('CTransO.ttf') format('truetype');
+}
+.CTRPO {
+	font-size:22px;
+    font-family: CrestronTranspOutline;
+} 
+
+@font-face {
+	font-family: ArialMonospacedForSAP;
+	src: url('cxm.ttf') format('truetype');
+}
+.ARIALMSSAP {
+	font-size:22px;
+    font-family: ArialMonospacedForSAP;
+} 
+
+</style>
+
+<script>
+function htmlEscape(str) {
+    return String(str)
+            .replace(/ /g, '&nbsp;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+}
+
+// Code by Stephen Genusa
+function ShowFontTables() {
+  var myFonts = ['Crestron AV', 'Crestron General', 'Crestron Lighting HVAC', 'Crestron AV Text split 1', 'Crestron AV Text split 2', 'Crestron AV Text split 3', 'Crestron AV Text split 4', 'Crestron General Text split 1', 'Crestron General Text split 2', 'Crestron General Text split 3', 'Crestron General Text split 4', 'Crestron HVAC Text split 1', 'Crestron HVAC Text split 2', 'Crestron HVAC Text split 3', 'Crestron HVAC Text split 4', 'Crestron Mono Bold', 'CrestronMonoRegular', 'Crestron Sans Pro Bold', 'Crestron Sans Pro Bold Italic', 'CrestronSansProItalic', 'Crestron Sans Pro Light', 'Crestron Sans Pro Light Italic', 'Crestron Sans Pro Regular', 'Crestron Sans Pro Semibold', 'Crestron Sans Pro Semibold Italic', 'Crestron Serif Bold', 'Crestron Serif Italic', 'Crestron Serif Regular', 'Crestron Unicode Regular', 'Crestron Transport', 'Arial Monospaced for SAP']	
+  var myStyles = ['CRESTAV', 'CRESTGEN', 'CRESTLIGHVAC', 'CAVTS1', 'CAVTS2', 'CAVTS3', 'CAVTS4', 'CGTS1', 'CGTS2', 'CGTS3', 'CGTS4', 'CHVACTS1', 'CHVACTS2', 'CHVACTS3', 'CHVACTS4', 'CMB', 'CMR', 'CSPB', 'CSPBI', 'CSPI', 'CSPL', 'CSPLI', 'CSPR', 'CSPSB', 'CSPSBI', 'CSERIFB', 'CSERIFI', 'CSERIFR', 'CUNIR', 'CTRANSP', 'ARIALMSSAP'];
+  
+  //var myFonts = ['Crestron Transport Outline'];
+  //var myStyles = ['CTRPO'];
+  
+  var arrayLength = myStyles.length;
+  var myNewHTML;
+  var columnsPerRow = 15;
+  for (var s = 0; s < arrayLength; s++) {
+      myNewHTML = '<h1>' + myFonts[s] +'</h1>\n';
+      myNewHTML += '<table width="100%" border="1" cellspacing="0" cellpadding="3">\n';
+	  var startingRowCounter = 32;
+      var savedstartingRowCounter = startingRowCounter
+	  while (startingRowCounter < 256) {
+  		  savedstartingRowCounter = startingRowCounter ;
+		  
+		  for (var i = 0; i <= columnsPerRow; i++) {
+			  tempCount = i + startingRowCounter;
+			  if (tempCount < 256) {
+                myNewHTML += '<td><table width="100%" border="0" cellspacing="0" cellpadding="0">\n';
+                myNewHTML += '<tr valign="top" height="12px" class="ar_s" bgcolor="#F0F0F0">\n';
+                myNewHTML += '<td width="33%" align="left">' + tempCount + '</td>\n';
+                myNewHTML += '<td width="33%" align="center">\\x' + tempCount.toString(16) + '</td>\n';
+				if (tempCount > 126 && tempCount < 161)
+                  myNewHTML += '<td width="33%" align="right">&nbsp;</td>\n';
+				else
+                  myNewHTML += '<td width="33%" align="right">' + htmlEscape(String.fromCharCode(tempCount)) + '</td>\n';
+                myNewHTML += '</tr>';
+                myNewHTML += '<tr height="22px" class="' + myStyles[s] + '">\n';
+				if (tempCount == 32) 
+                  myNewHTML += '<td colspan="3" align="center">&nbsp;</td>\n';
+				else
+                  myNewHTML += '<td colspan="3" align="center">&#' + tempCount + ';</td>\n';
+                myNewHTML += '</tr>\n';
+                myNewHTML += '</table></td>\n';
+			  } // if
+		  } // for
+		  
+		  //myNewHTML += '<tr bgcolor="#DADADA" class="arial">\n';
+		  myNewHTML += '</tr>\n';
+		  startingRowCounter = tempCount+1;
+	  } // while
+      myNewHTML += '</table>\n';
+      // create a page break when printing between each font panel
+      if (s < arrayLength) {
+        myNewHTML += '<div></div>\n';
+      } // if
+	  // Append the new HTML table to the body
+      $("body").append(myNewHTML);
+  } // for (var s = 0; s < arrayLength; s++) 
+}
+</script>
+
+</head>
+<body>
+<script> ShowFontTables(); </script>
+</body>
+</html>
