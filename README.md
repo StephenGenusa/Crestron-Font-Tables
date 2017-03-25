@@ -2,7 +2,7 @@
 Generates good looking documentation for Crestron fonts. HTML generator available here. When printed in landscape mode, produces a perfectly formatted page per font giving you a nice reference format whether PDF or hardcopy.
 
 <center>
-![Partial Page Snapshot](ss.png)
+![Partial Page Snapshot](http://i.imgur.com/usu3nZc.png)
 </center>
 
 ----------
